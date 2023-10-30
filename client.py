@@ -1,6 +1,6 @@
 import hashlib
 
-from server import check, give_salt
+from server import check, give_salt, reg
 
 class client:
     def __init__(self, login, name):
